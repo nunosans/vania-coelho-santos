@@ -1,0 +1,600 @@
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,a,abbr,address,cite,
+code,del,dfn,em,img,ins,q,
+small,strong,sub,sup,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+a img, a:link, a:visited, a:hover, a:active {
+	border:0;
+	outline:0;
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	text-decoration: none;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: none;
+	}
+	
+/*
+----------------------------------------------------------
+Base Styles
+----------------------------------------------------------
+*/
+
+* {
+	font-family: "franklin-gothic-urw",
+				 "Franklin Gothic Book",
+				 "Helvetica Neue",
+				 Arial,
+				 Helvetica,
+				 sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	}
+	*::selection{
+		background-color: none;
+		text-shadow: none;
+		}
+	body > * {
+		width: 80%;
+		float: right;
+		clear: right;
+		overflow: hidden;
+		}
+
+b {font-weight: 700;}
+
+p {margin: 0;}
+p + p {text-indent: 16px;} /* For every paragraph except the first */
+
+@font-face {
+	font-family: "Modern Pictograms";
+	src: url("../assets/modern-pictograms.otf") format("opentype");
+	}
+
+.tel {pointer-events: none;} /* Disable clicking on the telephone number for desktop users */
+
+
+/*
+----------------------------------------------------------
+Header & Nav
+----------------------------------------------------------
+*/
+
+#header {	
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	background-color: black;
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+	margin: 0; /* Override body > * style */
+	}
+	#header > * {
+		float: right;
+		color: #AAA;
+		padding: 8px 15px;
+		-moz-transition-duration: 0.2s;
+		-moz-transition-delay: 0s;
+		-moz-transition-property: all;
+		-o-transition-duration: 0.2s;
+		-o-transition-delay: 0s;
+		-o-transition-property: all;
+		-webkit-transition-duration: 0.2s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-property: all;
+		transition-duration: 0.2s;
+		transition-delay: 0s;
+		transition-property: all;
+		}
+		#header > *:hover {
+			cursor: pointer;
+			color: white;
+			}
+	#header > h1 {
+		display: inline-block;
+		float: left;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: white;
+		font-size: 12px;
+		padding: 8px 1.6%;
+		margin: 0;
+		}
+
+#previous, #next {
+	display: none;
+	float: none;
+	clear: none;
+	position: fixed;
+	bottom: 0;
+	right: 4%;
+	margin-right: 2px;
+	width: 48px;
+	height: 44px;
+	z-index: 3;
+	background-color: black;
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+	}
+#previous {
+	margin-right: 52px;
+	}
+#next {}
+
+#nav {
+	float: left;
+	width: 18.4%;
+	z-index: -1;
+	margin: 53px 0 0 0; /* Override body > * style */
+	padding-left: 1.6%;
+	overflow: visible;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	}
+	#nav li {
+		color: #CCC;
+		}
+		#nav li:hover {
+			cursor: default;
+			}
+		#nav li:hover .pictogram {
+			border-color: black;
+			color: black;
+			}
+	#nav ul {
+		margin: 6px 0 12px;
+		}
+	#nav li a {
+		color: #AAA;
+		display: inline-block;
+		height: 13px;
+		line-height: 14px;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-color: white; /* IE Fallback */
+		border-color: transparent;
+		text-shadow:  0px -1px 0 white,
+	    			  1px  0px 0 white,
+	    			 -1px  0px 0 white;
+		-moz-transition-duration: 0.2s;
+		-moz-transition-delay: 0s;
+		-moz-transition-property: all;
+		-o-transition-duration: 0.2s;
+		-o-transition-delay: 0s;
+		-o-transition-property: all;
+		-webkit-transition-duration: 0.2s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-property: all;
+		transition-duration: 0.2s;
+		transition-delay: 0s;
+		transition-property: all;
+		}
+
+.pictogram {
+		font-family: "Modern Pictograms";
+		font-size: 11px;
+		color: #AAA;
+		text-shadow: none;
+		background-color: white;
+		border-radius: 13px;
+		border: 1px solid #CCC;
+		width: 11px;
+		height: 11px;
+		line-height: 12px;
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		bottom: 1px;
+		margin-left: 2px;
+		padding: 0px 1px 2px 1px;
+		-moz-transition-duration: 0.2s;
+		-moz-transition-delay: 0s;
+		-moz-transition-property: all;
+		-o-transition-duration: 0.2s;
+		-o-transition-delay: 0s;
+		-o-transition-property: all;
+		-webkit-transition-duration: 0.2s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-property: all;
+		transition-duration: 0.2s;
+		transition-delay: 0s;
+		transition-property: all;
+		}
+			
+#nav li #nav-item-about:hover,
+#nav li #nav-item-about.active,
+#nav li #nav-item-download:hover,
+#nav li #nav-item-download.active {
+		color: black;
+		border-bottom-color: black;
+		}
+		#nav li #nav-item-download:hover .pictogram,
+		#nav li #nav-item-download.active .pictogram {
+			border-color: black;
+			color: black;
+			}
+		
+
+
+/*
+----------------------------------------------------------
+Projects Layout
+----------------------------------------------------------
+*/
+
+h2 {
+	display: inline-block;
+	float: left;
+	font-size: 36px;
+	line-height: 32px;
+	border-bottom: 3px solid black;
+	margin: 6px 0 25px 2%;
+	}
+						
+.project {
+	padding: 60px 0 88px;
+	border-top: 3px solid white;
+	}
+	body:first-child.project {
+		border-top: none;
+		}
+	.project img,
+	.project div {
+		float: left;
+		margin: 10px 0;
+		}
+	.project img.right,
+	.project div.right {
+		float: right;
+		}
+	.project img.clear,
+	.project div.clear {
+		clear: both;
+		}
+	.project div.col1 {
+		width: 23%;
+		margin-right: 2%;
+		}
+		.project div.col1.rspace {
+			margin-right: 27%;
+			}
+	.project div.col2 {
+		width: 48%;
+		margin-right: 2%;
+		-moz-column-count: 2;
+		-moz-column-gap: 2%;
+		-o-column-count: 2;
+		-o-column-gap: 2%;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 2%;
+		column-count: 2;
+		column-gap: 2%;
+		}
+	
+	/* Basic grid */
+	.project img.col1 {width: 25%;  height: auto;}
+	.project img.col2 {width: 50%;  height: auto;}
+	.project img.col3 {width: 75%;  height: auto;}
+	.project img.col4 {width: 100%; height: auto;}
+	
+	/* With a right margin */
+	.project img.col1.rmargin {width: 23%; margin-right: 2%;}
+	.project img.col2.rmargin {width: 48%; margin-right: 2%;}
+	.project img.col3.rmargin {width: 73%; margin-right: 2%;}
+	.project img.col4.rmargin {width: 98%; margin-right: 2%;}
+	
+	/* With a left margin */
+	.project img.col1.lmargin {width: 23%; margin-left: 2%; }
+	.project img.col2.lmargin {width: 48%; margin-left: 2%; }
+	.project img.col3.lmargin {width: 73%; margin-left: 2%; }
+	.project img.col4.lmargin {width: 98%; margin-left: 2%; }
+	
+	/* With margin on both sides */
+	.project img.col1.bmargin {width: 21%; margin-right: 2%; margin-left: 2%;}
+	.project img.col2.bmargin {width: 46%; margin-right: 2%; margin-left: 2%;}
+	.project img.col3.bmargin {width: 71%; margin-right: 2%; margin-left: 2%;}
+	.project img.col4.bmargin {width: 96%; margin-right: 2%; margin-left: 2%;}
+
+/*
+----------------------------------------------------------
+Projects Colours
+----------------------------------------------------------
+*/
+
+/* Shelter for Pilgrims */
+#shelter-for-pilgrims {
+	background-color: #fcf7f4;
+	}
+#shelter-for-pilgrims h2,
+#shelter-for-pilgrims p,
+a#nav-item-shelter-for-pilgrims:hover,
+a#nav-item-shelter-for-pilgrims.active {
+    color: #c06a24;
+    border-bottom-color: #c06a24;
+    }
+#shelter-for-pilgrims h2 {
+    /* Prevent underline to cross over the type */
+    text-shadow:  0px -2px 0 #fcf7f4,
+    			  2px  0px 0 #fcf7f4,
+    			  0px  1px 0 #fcf7f4,
+    			 -2px  0px 0 #fcf7f4,
+    			  2px -2px 0 #fcf7f4,
+    			  2px  1px 0 #fcf7f4,
+    			 -2px -2px 0 #fcf7f4,
+    			 -2px  1px 0 #fcf7f4;
+    }
+#shelter-for-pilgrims h2::selection,
+#shelter-for-pilgrims p::selection {
+    text-shadow: none;
+    background-color: #c06a24;
+    color: #fcf7f4;
+    }
+
+/* Vienna House of Music */
+#vienna-house-of-music {
+	background-color: #f2f9fa;
+	}
+#vienna-house-of-music h2,
+#vienna-house-of-music p,
+a#nav-item-vienna-house-of-music:hover,
+a#nav-item-vienna-house-of-music.active {
+    color: #00839d;
+    border-bottom-color: #00839d;
+    }
+#vienna-house-of-music h2 {
+    /* Prevent underline to cross over the type */
+    text-shadow:  0px -2px 0 #f2f9fa,
+    			  2px  0px 0 #f2f9fa,
+    			  0px  1px 0 #f2f9fa,
+    			 -2px  0px 0 #f2f9fa,
+    			  2px -2px 0 #f2f9fa,
+    			  2px  1px 0 #f2f9fa,
+    			 -2px -2px 0 #f2f9fa,
+    			 -2px  1px 0 #f2f9fa;
+    }
+#vienna-house-of-music h2::selection,
+#vienna-house-of-music p::selection {
+    text-shadow: none;
+    background-color: #00839d;
+    color: #f2f9fa;
+    }
+
+/* Vila Nova de Gaia Public Library */
+#vila-nova-de-gaia-public-library {
+	background-color: #faf6f9;
+	}
+#vila-nova-de-gaia-public-library h2,
+#vila-nova-de-gaia-public-library p,
+a#nav-item-vila-nova-de-gaia-public-library:hover,
+a#nav-item-vila-nova-de-gaia-public-library.active {
+    color: #95518b;
+    border-bottom-color: #95518b;
+    }
+#vila-nova-de-gaia-public-library h2 {
+    /* Prevent underline to cross over the type */
+    text-shadow:  0px -2px 0 #faf6f9,
+    			  2px  0px 0 #faf6f9,
+    			  0px  1px 0 #faf6f9,
+    			 -2px  0px 0 #faf6f9,
+    			  2px -2px 0 #faf6f9,
+    			  2px  1px 0 #faf6f9,
+    			 -2px -2px 0 #faf6f9,
+    			 -2px  1px 0 #faf6f9;
+    }
+#vila-nova-de-gaia-public-library h2::selection,
+#vila-nova-de-gaia-public-library p::selection {
+    text-shadow: none;
+    background-color: #95518b;
+    color: #faf6f9
+    }
+#vila-nova-de-gaia-public-library  img.col1 {
+    /* Special case */
+    margin-left: 14.5%;
+    }
+
+/* Cinematheque */
+#cinematheque {
+	background-color: #f7f9f6;
+	}
+#cinematheque h2,
+#cinematheque p,
+a#nav-item-cinematheque:hover,
+a#nav-item-cinematheque.active {
+    color: #598448;
+    border-bottom-color: #598448;
+    }
+#cinematheque h2 {
+    /* Prevent underline to cross over the type */
+    text-shadow:  0px -2px 0 #f7f9f6,
+    			  2px  0px 0 #f7f9f6,
+    			  0px  1px 0 #f7f9f6,
+    			 -2px  0px 0 #f7f9f6,
+    			  2px -2px 0 #f7f9f6,
+    			  2px  1px 0 #f7f9f6,
+    			 -2px -2px 0 #f7f9f6,
+    			 -2px  1px 0 #f7f9f6;
+    }
+#cinematheque h2::selection,
+#cinematheque p::selection {
+    text-shadow: none;
+    background-color: #598448;
+    color: #f7f9f6
+    }
+
+/* Collective Housing */
+#collective-housing {
+	background-color: #fcf4f4;
+	}
+#collective-housing h2,
+#collective-housing p,
+a#nav-item-collective-housing:hover,
+a#nav-item-collective-housing.active {
+    color: #c4292f;
+    border-bottom-color: #c4292f;
+    }
+#collective-housing h2 {
+    /* Prevent underline to cross over the type */
+    text-shadow:  0px -2px 0 #fcf4f4,
+    			  2px  0px 0 #fcf4f4,
+    			  0px  1px 0 #fcf4f4,
+    			 -2px  0px 0 #fcf4f4,
+    			  2px -2px 0 #fcf4f4,
+    			  2px  1px 0 #fcf4f4,
+    			 -2px -2px 0 #fcf4f4,
+    			 -2px  1px 0 #fcf4f4;
+    }
+#collective-housing h2::selection,
+#collective-housing p::selection {
+    text-shadow: none;
+    background-color: #c4292f;
+    color: #f4fbfe
+    }
+
+/* Student Housing */
+#student-housing {
+	background-color: #f4fbfe;
+	}
+#student-housing h2,
+#student-housing p,
+a#nav-item-student-housing:hover,
+a#nav-item-student-housing.active {
+    color: #29abe2;
+    border-bottom-color: #29abe2;
+    }
+#student-housing h2 {
+    /* Prevent underline to cross over the type */
+    text-shadow:  0px -2px 0 #f4fbfe,
+    			  2px  0px 0 #f4fbfe,
+    			  0px  1px 0 #f4fbfe,
+    			 -2px  0px 0 #f4fbfe,
+    			  2px -2px 0 #f4fbfe,
+    			  2px  1px 0 #f4fbfe,
+    			 -2px -2px 0 #f4fbfe,
+    			 -2px  1px 0 #f4fbfe;
+    }
+#student-housing h2::selection,
+#student-housing p::selection {
+    text-shadow: none;
+    background-color: #29abe2;
+    color: #f4fbfe
+    }
+
+
+/*
+----------------------------------------------------------
+About
+----------------------------------------------------------
+*/
+
+#profile {
+	width: 100%;
+	background-color: #282828;
+	border-top: 1px solid black;
+	color: white;
+	padding: 32px 0 64px;
+	z-index: 1;
+	}
+	#profile img {
+		float: left;
+		margin-left: 1.6%;
+		width: 9.2%;
+		height: auto;
+		max-width: 300px;
+		padding-top: 32px;
+		}
+	#profile div {
+		width: 23.4%;
+		margin-left: 1.6%;
+		float: left;
+		padding-top: 32px;
+		}
+		#profile p,
+		#profile span {
+			color: #AAA;
+			}
+		#profile h3 {
+			margin-bottom: 6px;
+			}
+		#profile a,
+		#profile a:link,
+		#profile a:visited {
+			color: white;
+		    display: inline-block;
+		    border-bottom-width: 1px;
+		    border-bottom-style: solid;
+		    border-bottom-color: white;
+		    line-height: 14px;
+		    /* Prevent underline to cross over the type */
+		    text-shadow:  0px -2px 0 #282828,
+		    			  2px  0px 0 #282828,
+		    			  0px  1px 0 #282828,
+		    			 -2px  0px 0 #282828,
+		    			  2px -2px 0 #282828,
+		    			  2px  1px 0 #282828,
+		    			 -2px -2px 0 #282828,
+		    			 -2px  1px 0 #282828;
+			-moz-transition-duration: 0.2s;
+			-moz-transition-delay: 0s;
+			-moz-transition-property: all;
+			-o-transition-duration: 0.2s;
+			-o-transition-delay: 0s;
+			-o-transition-property: all;
+			-webkit-transition-duration: 0.2s;
+			-webkit-transition-delay: 0s;
+			-webkit-transition-property: all;
+			transition-duration: 0.2s;
+			transition-delay: 0s;
+			transition-property: all;
+			}
+		#profile a:hover,
+		#profile a:active,
+		#profile a:focus {
+			border-bottom-color: transparent;
+			}
+	#profile #about {
+		width: 48.4%;
+		}
+		#profile #about p {
+			max-width: 550px;
+			}
+	#profile #education {
+		clear: left;
+		min-width: 350px;
+		}
+		#profile #education span {
+			display: inline-block;
+			width: 52px;
+			margin-right: 5px;
+			text-align: center;
+			}
+	#profile #awards-and-press {
+		width: 48.4%;
+		min-width: 550px;
+		}
+		#profile #awards-and-press span {
+			display: inline-block;
+			width: 20px;
+			text-align: center;
+			margin-right: 5px;
+			}
+	#profile #contacts {
+		min-width: 300px;
+		}
+
+
+
+
+
+
+
+
+
