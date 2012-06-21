@@ -178,6 +178,12 @@ Header & Nav
 		transition-delay: 0s;
 		transition-property: all;
 		}
+	/* Firefox Browser fix */
+	@-moz-document url-prefix() {
+		#nav li a {
+			height: 12px;
+			}
+		}
 
 .pictogram {
 		font-family: "Modern Pictograms";
@@ -532,7 +538,7 @@ About
 		    border-bottom-width: 1px;
 		    border-bottom-style: solid;
 		    border-bottom-color: white;
-		    line-height: 14px;
+		    line-height: 13px;
 		    /* Prevent underline to cross over the type */
 		    text-shadow:  0px -2px 0 #282828,
 		    			  2px  0px 0 #282828,
@@ -555,6 +561,12 @@ About
 			transition-delay: 0s;
 			transition-property: all;
 			}
+			/* Firefox Browser fix */
+			@-moz-document url-prefix() {
+				#nav li a {
+					height: 12px;
+					}
+				}
 		#profile a:hover,
 		#profile a:active,
 		#profile a:focus {
