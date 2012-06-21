@@ -1,2 +1,5 @@
+# If page not found, open site root
+ErrorDocument 404 /
+
 # Force .pdf files to be downloaded to disk
 ddType application/octet-stream .pdf
