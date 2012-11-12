@@ -1,1 +1,6 @@
+# Ignore System files
 .DS_Store
+
+# Ignore Sublime Text 2 files
+*.sublime-workspace
+*.sublime-project
