@@ -1,260 +1,271 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="description" content="Vânia Coelho Santos is an architect, FAUP alumni, based in Porto. This website is an online portfolio showcasing selected pieces of work." />
-		<meta name="keywords" content="vania, coelho, santos, faup, architecture, arquitectura, porto, portfolio" />
-		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Vânia Coelho Santos is an architect, FAUP alumni, based in Porto. This website is an online portfolio showcasing selected pieces of work." />
+    <meta name="keywords" content="vania, coelho, santos, faup, architecture, arquitectura, porto, portfolio" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 
-		<title>Vânia Coelho Santos &nbsp;/&nbsp; Portfólio de Arquitectura</title>
+    <title>Vânia Coelho Santos &nbsp;/&nbsp; Portfólio de Arquitectura</title>
 
-		<link href="/stylesheets/styles.css" rel="stylesheet" media="screen"/>
+    <link href="/stylesheets/styles.css" rel="stylesheet" media="screen"/>
 
-		<script src="https://use.typekit.com/gpc3ajw.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script src="/scripts/jquery.localscroll.js"></script>
-		<script src="/scripts/jquery.scrollto.js"></script>
-		<script src="/scripts/scripts.js"></script>
-		<script src="http://mint.vaniacoelhosantos.com/?js" type="text/javascript"></script>
+    <script src="https://use.typekit.com/gpc3ajw.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="/scripts/jquery.localscroll.js"></script>
+    <script src="/scripts/jquery.scrollto.js"></script>
+    <script src="/scripts/scripts.js"></script>
+    <script src="http://mint.vaniacoelhosantos.com/?js" type="text/javascript"></script>
 
-		<!-- Large Screens -->
-		<style type="text/css" media="only screen and (min-width: 1800px)">
-			.project img, .project div {margin: 20px 0;}
-			.project div.col1 {width: 10.5%;}
-			.project div.col2 {width: 23%;}
-		</style>
+    <!-- Large Screens -->
+    <style type="text/css" media="only screen and (min-width: 1800px)">
+      .project img, .project div {margin: 20px 0;}
+      .project div.col1 {width: 10.5%;}
+      .project div.col2 {width: 23%;}
+    </style>
 
-		<!-- Standard Screens -->
-		<style type="text/css" media="only screen and (max-width: 1800px)">
-		</style>
+    <!-- Standard Screens -->
+    <style type="text/css" media="only screen and (max-width: 1800px)">
+    </style>
 
-		<!-- Small Screens -->
-		<style type="text/css" media="only screen and (max-width: 1000px)">
-			.tel {pointer-events: auto;}
-			#nav {display: none;}
-			body > * {width: 100%;}
-			.project div.col1,
-			.project div.col2 {width: 48%; -moz-column-count: 1; -o-column-count: 1; -webkit-column-count: 1; column-count: 1;}
-			#profile > div + div {clear: left;}
-			#profile img {width: 18.4%;}
-		</style>
+    <!-- Small Screens -->
+    <style type="text/css" media="only screen and (max-width: 1000px)">
+      .tel {pointer-events: auto;}
+      #nav {display: none;}
+      body > * {width: 100%;}
+      .project div.col1,
+      .project div.col2 {width: 48%; -moz-column-count: 1; -o-column-count: 1; -webkit-column-count: 1; column-count: 1;}
+      #profile > div + div {clear: left;}
+      #profile img {width: 18.4%;}
+    </style>
 
-		<!-- Mobile Screens -->
-		<style type="text/css" media="only screen and (max-width: 750px)">
-			body {
-				}
-			#header {
-				height: 70px;
-				position: static;
-				float: left;
-				padding-top: 13px;
-				padding-bottom: 10px;
-				}
-				#header > * {
-					float: left;
-					clear: left;
-					padding:  2px 4% !important;
-					max-width: 220px;
-					}
-			#previous, #next {display: none;} /* Change to block when ready */
-			h2 {
-				font-size: 20px;
-				line-height: 18px;
-				border-bottom: 2px solid black;
-				margin-left: 4%;
-				}
-			.project {
-				padding: 30px 0 44px;
-				}
-				.project > div, .project img {
-					width: 92% !important;
-					margin-right: 4% !important;
-					margin-left: 4% !important;
-					float: left !important;
-					clear: left !important;
-					}
-			#profile > div {margin-left: 4% !important; width: 92% !important; min-width: 0px !important;}
-			#profile img {margin-left: 4% !important; width: 48.4%;}
+    <!-- Mobile Screens -->
+    <style type="text/css" media="only screen and (max-width: 750px)">
+      body {
+        }
+      #header {
+        height: 70px;
+        position: static;
+        float: left;
+        padding-top: 13px;
+        padding-bottom: 10px;
+        }
+        #header > * {
+          float: left;
+          clear: left;
+          padding:  2px 4% !important;
+          max-width: 220px;
+          }
+      #previous, #next {display: none;} /* Change to block when ready */
+      h2 {
+        font-size: 20px;
+        line-height: 18px;
+        border-bottom: 2px solid black;
+        margin-left: 4%;
+        }
+      .project {
+        padding: 30px 0 44px;
+        }
+        .project > div, .project img {
+          width: 92% !important;
+          margin-right: 4% !important;
+          margin-left: 4% !important;
+          float: left !important;
+          clear: left !important;
+          }
+      #profile > div {margin-left: 4% !important; width: 92% !important; min-width: 0px !important;}
+      #profile img {margin-left: 4% !important; width: 48.4%;}
 
-		</style>
+    </style>
 
-		<!--[if lt IE 9]>
-			.pictogram {display:none;}
-		<![endif]-->
+    <!--[if lt IE 9]>
+      .pictogram {display:none;}
+    <![endif]-->
 
-	</head>
+  </head>
 
-	<body>
+  <body>
 
-		<div id="header">
-			<h1>Vânia Coelho Santos &nbsp;/&nbsp; Portfólio de Arquitectura</h1>
-			<a href="mailto:vania@vaniacoelhosantos.com">vania@vaniacoelhosantos.com</a>
-			<a href="tel:+447565806842" class="tel">+44(0) 7565 806842</a>
-		</div>
+    <div id="header">
+      <h1>Vânia Coelho Santos &nbsp;/&nbsp; Portfólio de Arquitectura</h1>
+      <a href="mailto:vania@vaniacoelhosantos.com">vania@vaniacoelhosantos.com</a>
+      <a href="tel:+447565806842" class="tel">+44(0) 7565 806842</a>
+    </div>
 
-		<span id="previous"></span>
-		<span id="next"></span>
+    <span id="previous"></span>
+    <span id="next"></span>
 
 
-		<ul id="nav">
-			<li>Projectos:</li>
-			<ul>
-			    <li><a id="nav-item-shelter-for-pilgrims" href="#shelter-for-pilgrims">Abrigo para Peregrinos</a></li>
-			    <li><a id="nav-item-vienna-house-of-music" href="#vienna-house-of-music">Casa da Música de Viena</a></li>
-			    <li><a id="nav-item-vila-nova-de-gaia-public-library" href="#vila-nova-de-gaia-public-library">Biblioteca de Vila Nova de Gaia</a></li>
-			    <li><a id="nav-item-cinematheque" href="#cinematheque">Cinemateca</a></li>
-			    <li><a id="nav-item-collective-housing" href="#collective-housing">Habitação Colectiva</a></li>
-			    <li><a id="nav-item-student-housing" href="#student-housing">Residência para Estudantes</a></li>
-			</ul>
-			<li><a id="nav-item-about" href="#about">Perfil</a></li>
-			<li><a id="nav-item-download" href="/assets/vania-coelho-santos-portfolio-spring-12.pdf">Descarregar em PDF</a> <span class="pictogram">&#91;</span></li>
-		</ul>
+    <ul id="nav">
+      <li>Projectos:</li>
+      <ul>
+          <li><a id="nav-item-shelter-for-pilgrims" href="#shelter-for-pilgrims">Abrigo para Peregrinos</a></li>
+          <li><a id="nav-item-vienna-house-of-music" href="#vienna-house-of-music">Casa da Música de Viena</a></li>
+          <li><a id="nav-item-vila-nova-de-gaia-public-library" href="#vila-nova-de-gaia-public-library">Biblioteca de Vila Nova de Gaia</a></li>
+          <li><a id="nav-item-cinematheque" href="#cinematheque">Cinemateca</a></li>
+          <li><a id="nav-item-collective-housing" href="#collective-housing">Habitação Colectiva</a></li>
+          <li><a id="nav-item-student-housing" href="#student-housing">Residência para Estudantes</a></li>
+      </ul>
+      <li><a id="nav-item-about" href="#about">Perfil</a></li>
+      <li><a id="nav-item-download" href="/assets/vania-coelho-santos-portfolio-spring-12.pdf">Descarregar em PDF</a> <span class="pictogram">&#91;</span></li>
+    </ul>
 
-		<div class="project" id="shelter-for-pilgrims">
-			<h2  class="col2">Abrigo para Peregrinos</h2>
-			<div class="col2 right">
-			    <p>O principal critério para o desenvolvimento da presente proposta - um abrigo de Peregrinos -, foi a ambição de criar um espaço dotado de características espaciais que respondam não só as necessidades físicas dos peregrinos – descanso e higiene -, mas sobretudo as suas necessidades espirituais – reflexão e introspecção.</p>
-				<p>A singularidade da forma criada vive da dialéctica entre um momento de reunião, um espaço central de partilha de experiências e caminhadas, e distintos momento individuais que se expandem e direccionam para o exterior, na tentativa de criação de íntimos espaços de meditação.</p>
-				<p>A linguagem do abrigo, centra-se na utilização de perfis sombra tipo PLADUR, ajustando-se ao desenho do terreno, formalizando o desejo dos distintos volumes emergiram no sentido do céu.  Imediatamente no interior, os perfis-  desenhados sobre duas métricas distintas-, permitem a passagem de frestas de luz verticais, concebendo o ambiente celestial imperativo na dinâmica do concurso.</p>
-			</div>
-			<img class="col2 bmargin" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-concept.png" width="975" height="179" alt="A conceptual sketch of the Shelter's structure">
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-morning-light-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-morning-light.jpg" width="1485" height="832" alt="Uma recriação digital a ilustrar o Abrigo para Peregrinos visto do exterior num dia de sol"></a>
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-constructive-cut-clean.png"><img class="col4 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-constructive-cut.png" width="1945" height="794" alt="Alçado do Abrigo para Peregrinos"></a>
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-at-night-hires.jpg"><img class="col3 right bmargin clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-at-night.jpg" width="1485" height="1057" alt="Uma recriação digital a ilustrar o Abrigo para Peregrinos à noite de vista aéria"></a>
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-plant-clean.png"><img class="col3 clear bmargin" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-plant.png" width="1485" height="1160" alt="Planta do Abrigo para Peregrinos"></a>
-			<div class="col1">
-			    <p>No sentido de exaltar o significado do “caminho” para o peregrino, a entrada é feita sobre uma plataforma/rampa estreita (de passagem individual) seguida de uma mudança de direção através de um ângulo estável de 90 graus e por fim um lava –pés, uma reminiscência das crenças cristãs, simbolizando a oportunidade de relaxamento após uma longa viagem. Em seguida, já dentro do abrigo, o peregrino encontra-se num eixo axial, no fundo do qual duas frestas na parede delineiam uma cruz cristã e iluminam todo o espaço da zona de meditação colectiva.</p>
-			</div>
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-interior-hires.jpg"><img class="col2 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-interior.jpg" width="975" height="1218" alt="Uma recriação digital a ilustrar o interior do Abrigo para Peregrinos"></a>
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-details-clean.png"><img class="col2" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-details.png" width="975" height="1218" alt="Detalhes arquitectónicos do Abrigo para Peregrinos"></a>
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-clean.png"><img class="col4 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-1.png" width="1945" height="928" alt="Representação técnica da estrutura do Abrigo para Peregrinos"></a>
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-clean.png"><img class="col4 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-2.png" width="1945" height="929" alt="Representação técnica da estrutura do Abrigo para Peregrinos"></a>
-			<a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-clean.png"><img class="col4 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-3.png" width="1945" height="1077" alt="Representação técnica da estrutura do Abrigo para Peregrinos"></a>
-		</div>
+    <div class="project" id="shelter-for-pilgrims">
+      <h2  class="col2">Abrigo para Peregrinos</h2>
+      <div class="col2 right">
+          <p>O principal critério para o desenvolvimento da presente proposta - um abrigo de Peregrinos -, foi a ambição de criar um espaço dotado de características espaciais que respondam não só as necessidades físicas dos peregrinos – descanso e higiene -, mas sobretudo as suas necessidades espirituais – reflexão e introspecção.</p>
+        <p>A singularidade da forma criada vive da dialéctica entre um momento de reunião, um espaço central de partilha de experiências e caminhadas, e distintos momento individuais que se expandem e direccionam para o exterior, na tentativa de criação de íntimos espaços de meditação.</p>
+        <p>A linguagem do abrigo, centra-se na utilização de perfis sombra tipo PLADUR, ajustando-se ao desenho do terreno, formalizando o desejo dos distintos volumes emergiram no sentido do céu.  Imediatamente no interior, os perfis-  desenhados sobre duas métricas distintas-, permitem a passagem de frestas de luz verticais, concebendo o ambiente celestial imperativo na dinâmica do concurso.</p>
+      </div>
+      <img class="col2 bmargin" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-concept.png" width="975" height="179" alt="A conceptual sketch of the Shelter's structure">
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-morning-light-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-morning-light.jpg" width="1485" height="832" alt="Uma recriação digital a ilustrar o Abrigo para Peregrinos visto do exterior num dia de sol"></a>
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-constructive-cut-clean.png"><img class="col4 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-constructive-cut.png" width="1945" height="794" alt="Alçado do Abrigo para Peregrinos"></a>
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-at-night-hires.jpg"><img class="col3 right bmargin clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-at-night.jpg" width="1485" height="1057" alt="Uma recriação digital a ilustrar o Abrigo para Peregrinos à noite de vista aéria"></a>
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-plant-clean.png"><img class="col3 clear bmargin" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-plant.png" width="1485" height="1160" alt="Planta do Abrigo para Peregrinos"></a>
+      <div class="col1">
+          <p>No sentido de exaltar o significado do “caminho” para o peregrino, a entrada é feita sobre uma plataforma/rampa estreita (de passagem individual) seguida de uma mudança de direção através de um ângulo estável de 90 graus e por fim um lava –pés, uma reminiscência das crenças cristãs, simbolizando a oportunidade de relaxamento após uma longa viagem. Em seguida, já dentro do abrigo, o peregrino encontra-se num eixo axial, no fundo do qual duas frestas na parede delineiam uma cruz cristã e iluminam todo o espaço da zona de meditação colectiva.</p>
+      </div>
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-interior-hires.jpg"><img class="col2 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-interior.jpg" width="975" height="1218" alt="Uma recriação digital a ilustrar o interior do Abrigo para Peregrinos"></a>
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-details-clean.png"><img class="col2" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-details.png" width="975" height="1218" alt="Detalhes arquitectónicos do Abrigo para Peregrinos"></a>
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-clean.png"><img class="col4 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-1.png" width="1945" height="928" alt="Representação técnica da estrutura do Abrigo para Peregrinos"></a>
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-clean.png"><img class="col4 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-2.png" width="1945" height="929" alt="Representação técnica da estrutura do Abrigo para Peregrinos"></a>
+      <a href="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-clean.png"><img class="col4 clear" src="http://media.vaniacoelhosantos.com/shelter-for-pilgrims-structure-3.png" width="1945" height="1077" alt="Representação técnica da estrutura do Abrigo para Peregrinos"></a>
+    </div>
 
-		<div class="project" id="vienna-house-of-music">
-			<h2 class="col2">Casa da Música de Viena</h2>
-			<div class="col2 right">
-				<p>A música é intuitivamente reconhecia por qualquer um de nós. Fruto de uma manipulação de sons e silêncios em delicadas e meticulosas sequências ao longo de um período de tempo, é, por excelência, uma das mais nobres expressões da cultura humana. Ritmo, harmonia, fluidez, são características intrinsecamente ligadas à música e que surgem minuciosamente transpostas para a presente proposta. A fluidez dos espaços, o jogo de formas curvilíneas que se afastam e/ou se unem. A busca de harmonia entre interior e exterior, entre forma e função, cheios e vazios, denuncia a intenção primordial de deixar transbordar as características do objecto – a música – para o espaço que o alberga – a Casa da Música de Viena. Sendo esta a cidade, por excelência da música clássica, este novo edifício será, sem  margem de dúvida, uma referência de relevante importância a este nível.</p>
-				<p>No que diz respeito à implantação do edifício, tentou-se que o edifício dialogasse tanto com a cidade planeada e ortogonal como com o espaço livre, aberto e natural que é o jardim.</p>
- 			</div>
-			<img class="col2 right bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-concept.png" width="975" height="311" alt="A sketch of the main idea for the Vienna House of Music building">
-			<a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-daytime-hires.jpg"><img class="col3 clear" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-daytime.jpg" width="1485" height="1040" alt="Uma recriação digital a ilustrar a Casa da Música de Viena vista do exterior"></a>
-			<!-- ### MISSING HIRES ### --><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-cut-in-prespective.png" width="1485" height="750" alt="Uma recriação digital a ilustrar o interior da Casa da Música de Viena">
-			<a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-interior-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-interior.jpg" width="1945" height="1089" alt="Uma recriação digital a ilustrar o interior da Casa da Música de Viena"></a>
-			<div class="col1 right">
-				<p>O interior do edifício é rico em jogos de mezanines e rampas que o organizam e dinamizam, visando sempre a criação de espaços fluidos e em constante dialogo entre si. As paredes e as rampas protagonizam um delicado jogo de tensões e extensões espaciais, surgindo como uma adaptação metafórica das curvas do violino para as paredes do edifício.</p>
-			</div>
-			<a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-plant-clean.png"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-plant.png" width="1945" height="1874" alt="Planta da Casa da Música de Viena"></a>
-			<a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-in-winter-hires.jpg"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-in-winter.jpg" width="1945" height="1200" alt="Uma recriação digital a ilustrar a Casa da Música de Viena vista do exterior num dia nevoso"></a>
-		</div>
+    <div class="project" id="vienna-house-of-music">
+      <h2 class="col2">Casa da Música de Viena</h2>
+      <div class="col2 right">
+        <p>A música é intuitivamente reconhecia por qualquer um de nós. Fruto de uma manipulação de sons e silêncios em delicadas e meticulosas sequências ao longo de um período de tempo, é, por excelência, uma das mais nobres expressões da cultura humana. Ritmo, harmonia, fluidez, são características intrinsecamente ligadas à música e que surgem minuciosamente transpostas para a presente proposta. A fluidez dos espaços, o jogo de formas curvilíneas que se afastam e/ou se unem. A busca de harmonia entre interior e exterior, entre forma e função, cheios e vazios, denuncia a intenção primordial de deixar transbordar as características do objecto – a música – para o espaço que o alberga – a Casa da Música de Viena. Sendo esta a cidade, por excelência da música clássica, este novo edifício será, sem  margem de dúvida, uma referência de relevante importância a este nível.</p>
+        <p>No que diz respeito à implantação do edifício, tentou-se que o edifício dialogasse tanto com a cidade planeada e ortogonal como com o espaço livre, aberto e natural que é o jardim.</p>
+      </div>
+      <img class="col2 right bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-concept.png" width="975" height="311" alt="A sketch of the main idea for the Vienna House of Music building">
+      <a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-daytime-hires.jpg"><img class="col3 clear" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-daytime.jpg" width="1485" height="1040" alt="Uma recriação digital a ilustrar a Casa da Música de Viena vista do exterior"></a>
+      <!-- ### MISSING HIRES ### --><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-cut-in-prespective.png" width="1485" height="750" alt="Uma recriação digital a ilustrar o interior da Casa da Música de Viena">
+      <a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-interior-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-interior.jpg" width="1945" height="1089" alt="Uma recriação digital a ilustrar o interior da Casa da Música de Viena"></a>
+      <div class="col1 right">
+        <p>O interior do edifício é rico em jogos de mezanines e rampas que o organizam e dinamizam, visando sempre a criação de espaços fluidos e em constante dialogo entre si. As paredes e as rampas protagonizam um delicado jogo de tensões e extensões espaciais, surgindo como uma adaptação metafórica das curvas do violino para as paredes do edifício.</p>
+      </div>
+      <a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-plant-clean.png"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-plant.png" width="1945" height="1874" alt="Planta da Casa da Música de Viena"></a>
+      <a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-in-winter-hires.jpg"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-in-winter.jpg" width="1945" height="1200" alt="Uma recriação digital a ilustrar a Casa da Música de Viena vista do exterior num dia nevoso"></a>
+    </div>
 
-		<div class="project" id="vila-nova-de-gaia-public-library">
-			<h2>Biblioteca de Vila Nova de Gaia</h2>
-			<img class="col1 left clear bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-concept.png" width="512" height="434" alt="A conceptual sketch showing the three spaces of the Vila Nova de Gaia Public Library and their functions">
-			<div class="col2 right rspace">
-			    <p>Silencio/Ruído, Comunicação/ Introspecção, Luz/Sombra, todos os momentos da obra procuram uma ligação e adaptação harmoniosa entre o programa, a obra e o terreno. O projecto desta biblioteca foi montado através da transposição interpretação do programa para a forma criada. Assim, o edifício conquista e apodera-se do terreno em três expansivos gestos. Cada gesto/volume nasce da interpretação/organização dos conteúdos programáticos.</p>
-				<p><b>Gesto 1:</b> <i>Silêncio</i></p>
-				<p>No primeiro volume localizam-se as salas de leitura e procura-se a criação de espaços  confortáveis e luminosos propícios à introspecção e leitura.</p>
-				<p><b>Gesto 2:</b> <i>Ruído e Interacção</i></p>
-				<p>No segundo volume os espaços destinam-se a comunicação, interacção e convívio, localizando-se aqui os espaços da cafetaria, livraria e sala polivalente.</p>
-				<p><b>Gesto 3:</b> <i>Coordenação</i></p>
-				<p>No terceiro volume os espaços ligados ao funcionamento e administrativo da biblioteca.
+    <div class="project" id="vila-nova-de-gaia-public-library">
+      <h2>Biblioteca de Vila Nova de Gaia</h2>
+      <img class="col1 left clear bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-concept.png" width="512" height="434" alt="A conceptual sketch showing the three spaces of the Vila Nova de Gaia Public Library and their functions">
+      <div class="col2 right rspace">
+          <p>Silencio/Ruído, Comunicação/ Introspecção, Luz/Sombra, todos os momentos da obra procuram uma ligação e adaptação harmoniosa entre o programa, a obra e o terreno. O projecto desta biblioteca foi montado através da transposição interpretação do programa para a forma criada. Assim, o edifício conquista e apodera-se do terreno em três expansivos gestos. Cada gesto/volume nasce da interpretação/organização dos conteúdos programáticos.</p>
+        <p><b>Gesto 1:</b> <i>Silêncio</i></p>
+        <p>No primeiro volume localizam-se as salas de leitura e procura-se a criação de espaços  confortáveis e luminosos propícios à introspecção e leitura.</p>
+        <p><b>Gesto 2:</b> <i>Ruído e Interacção</i></p>
+        <p>No segundo volume os espaços destinam-se a comunicação, interacção e convívio, localizando-se aqui os espaços da cafetaria, livraria e sala polivalente.</p>
+        <p><b>Gesto 3:</b> <i>Coordenação</i></p>
+        <p>No terceiro volume os espaços ligados ao funcionamento e administrativo da biblioteca.
 O Atrio, elemento funcional de distribuição, é o laço transversal de união dos três volumes, adquirindo características distintas em cada volume.</p>
-			</div>
-			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model-hires.jpg"><img class="col3 left bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model.jpg" width="1485" height="1345" alt="Fotografia da maqueta da Biblioteca Municipal de Vila Nova de Gaia"></a>
-			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-exterior-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-exterior.jpg" width="1945" height="1200" alt="Uma recriação digital a ilustrar a Biblioteca Municipal de Vila Nova de Gaia vista do exterior numa manhã de sol"></a>
-			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-plant-clean.png"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-plant.png" width="1945" height="1300" alt="Floorplan of the Vila Nova de Gaia Public Library"></a>
-			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model-360-view-hires.jpg"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model-360-view.png" width="1985" height="2075" alt="Quatro fotografias da maqueta da Biblioteca Municipal de Vila Nova de Gaia com vista de Norte, Este, Sul e Oeste respectivamente"></a>
-			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-cut-clean.png"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-cut.png" width="1945" height="1600" alt="Render dos alçados de cada um dos três espaços da Biblioteca Municipal de Vila Nova de Gaia"></a>
-			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-interior-hires.jpg"><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-interior.jpg" width="1485" height="950" alt="Uma recriação digital a ilustrar o interior da Biblioteca Municipal de Vila Nova de Gaia"></a>
-		</div>
+      </div>
+      <a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model-hires.jpg"><img class="col3 left bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model.jpg" width="1485" height="1345" alt="Fotografia da maqueta da Biblioteca Municipal de Vila Nova de Gaia"></a>
+      <a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-exterior-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-exterior.jpg" width="1945" height="1200" alt="Uma recriação digital a ilustrar a Biblioteca Municipal de Vila Nova de Gaia vista do exterior numa manhã de sol"></a>
+      <a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-plant-clean.png"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-plant.png" width="1945" height="1300" alt="Floorplan of the Vila Nova de Gaia Public Library"></a>
+      <a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model-360-view-hires.jpg"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model-360-view.png" width="1985" height="2075" alt="Quatro fotografias da maqueta da Biblioteca Municipal de Vila Nova de Gaia com vista de Norte, Este, Sul e Oeste respectivamente"></a>
+      <a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-cut-clean.png"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-cut.png" width="1945" height="1600" alt="Render dos alçados de cada um dos três espaços da Biblioteca Municipal de Vila Nova de Gaia"></a>
+      <a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-interior-hires.jpg"><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-interior.jpg" width="1485" height="950" alt="Uma recriação digital a ilustrar o interior da Biblioteca Municipal de Vila Nova de Gaia"></a>
+    </div>
 
-		<div class="project" id="cinematheque">
-			<h2>Cinemateca</h2>
-			<div class="col2 right">
-			    <p>Para este projecto foi-me dado um terreno em socalco como os muitos que desenham a encosta do rio do Douro e proporcionam uma magnifica vista para a ponte Luís I e Muralha Fernandina, ícones marcantes da cidade do Porto. A localização não poderia ser mais emblemática. Esta proposta procura desenvolver uma intensa relação com a localização e brindar a cidade com um espaço dedicado aos amantes de cinema. A proposta consiste na criação de um edifício que recria no seu interior uma câmara obscura. Graças à lente que observa o rio, o edifício projecta imagens numa parede interior e assume-se desta forma como casa e guardião da evolução cinematográfica do Porto. Este projecto teve entrega limitada a 48 horas após a sua divulgação.</p>
-			</div>
-			<a href="http://media.vaniacoelhosantos.com/cinematheque-exterior-hires.jpg"><img class="col4 lmargin" src="http://media.vaniacoelhosantos.com/cinematheque-exterior.jpg" width="1945" height="1089" alt="Uma recriação digital a ilustrar a Cinemateca vista do exterior"></a>
-			<a href="http://media.vaniacoelhosantos.com/cinematheque-plant-clean.png"><img class="col3 left bmargin" src="http://media.vaniacoelhosantos.com/cinematheque-plant.png" width="1485" height="2585" alt="Planta do rés-do-chão e primeiro piso da Cinemateca"></a>
-			<a href="http://media.vaniacoelhosantos.com/cinematheque-cut-hires.jpg"><img class="col3 left" src="http://media.vaniacoelhosantos.com/cinematheque-cut.jpg" width="1485" height="1050" alt="Uma recriação digital a ilustrar a Cinemateca cortada a meio de forma a  desvendar o seu interior"></a>
-		</div>
+    <div class="project" id="cinematheque">
+      <h2>Cinemateca</h2>
+      <div class="col2 right">
+          <p>Para este projecto foi-me dado um terreno em socalco como os muitos que desenham a encosta do rio do Douro e proporcionam uma magnifica vista para a ponte Luís I e Muralha Fernandina, ícones marcantes da cidade do Porto. A localização não poderia ser mais emblemática. Esta proposta procura desenvolver uma intensa relação com a localização e brindar a cidade com um espaço dedicado aos amantes de cinema. A proposta consiste na criação de um edifício que recria no seu interior uma câmara obscura. Graças à lente que observa o rio, o edifício projecta imagens numa parede interior e assume-se desta forma como casa e guardião da evolução cinematográfica do Porto. Este projecto teve entrega limitada a 48 horas após a sua divulgação.</p>
+      </div>
+      <a href="http://media.vaniacoelhosantos.com/cinematheque-exterior-hires.jpg"><img class="col4 lmargin" src="http://media.vaniacoelhosantos.com/cinematheque-exterior.jpg" width="1945" height="1089" alt="Uma recriação digital a ilustrar a Cinemateca vista do exterior"></a>
+      <a href="http://media.vaniacoelhosantos.com/cinematheque-plant-clean.png"><img class="col3 left bmargin" src="http://media.vaniacoelhosantos.com/cinematheque-plant.png" width="1485" height="2585" alt="Planta do rés-do-chão e primeiro piso da Cinemateca"></a>
+      <a href="http://media.vaniacoelhosantos.com/cinematheque-cut-hires.jpg"><img class="col3 left" src="http://media.vaniacoelhosantos.com/cinematheque-cut.jpg" width="1485" height="1050" alt="Uma recriação digital a ilustrar a Cinemateca cortada a meio de forma a  desvendar o seu interior"></a>
+    </div>
 
-		<div class="project" id="collective-housing">
-			<h2>Habitação Colectiva</h2>
-			<div class="col2 right">
-			    <p>O presente trabalho, desenvolveu-se em 3 fases/momentos, cada uma com propósitos específicos.</p>
-				<p><b>Momento 1:</b> <i>A Cidade</i></p>
-				<p>O quarteirão a intervir localiza-se  numa área habitacional próxima da rotunda da Boavista, uma forte centralidade . Analisando a dimensão do loteamento fornecido, o rasgamento de uma nova rua que permitisse o acesso e a divisão dos quarteirões tornou-se fulcral e pertinente. Esta nova via adquire  o carácter de rua de interior de quarteirão, e deste modo, todas as instalações de comercio e escritórios são localizadas nas ruas com maior trafego  ligação a áreas importantes da cidade como a Rua da Graciosa e a Rua da Quinta Amarela. </p>
-				<p><b>Momento 2:</b> <i>O Edifício</i></p>
-				<p>O segundo momento foi a eleição de um bloco de habitação e o seu desenvolvimento. O bloco elegido situa-se numa das ruas mais movimentadas e encontra-se em ligação directa com uma empena, facto que levante varias questões no que respeita a continuidade de fachadas e linguagens. O edifício acaba por resultar da intersecção de dois corpos: um que dá continuidade ao plano do edifício da empena e que define as varandas dos fogos de habitação e um outro de maior importância que alberga todas as habitações, que se distancia e separa das limitações da empena. Deste modo, torna-se possível o aumento do número de pisos do edifício para uma melhor definição do gaveto e uma igualdade de escalas dos edifícios circundantes.</p>
-			</div>
-			<a href="http://media.vaniacoelhosantos.com/collective-housing-at-night-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/collective-housing-at-night.jpg" width="1945" height="1300" alt="Uma recriação digital a ilustrar a habitação colectiva vista do exterior à noite"></a>
-			<a href="http://media.vaniacoelhosantos.com/collective-housing-plant-1-clean.png"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-plant-1.png" width="1945" height="654" alt="Planta da habitação colectiva"></a>
-			<a href="http://media.vaniacoelhosantos.com/collective-housing-plant-2-clean.png"><img class="col2 left bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-plant-2.png" width="975" height="884" alt="Planta da habitação colectiva"></a>
-			<div class="col1 left">
-			    <p><b>Momento 3:</b> <i>A Habitação</i></p>
-			    <p>A definição da estratégia de distribuição das habitações foi panteada com vista a permitir espaços amplos no rés do chão. Assim cada núcleo de ligação vertical distribui para 4 habitações. Com os sistemas de distribuição definidos e a área de cada habitação delimitada o objectivo foi criar espaços com o máximo de flexibilidade possível.</p>
-			</div>
-			<a href="http://media.vaniacoelhosantos.com/collective-housing-interior-1-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/collective-housing-interior-1.jpg" width="1945" height="1200" alt="Uma recriação digital a ilustrar o interior da habitação colectiva"></a>
-			<a href="http://media.vaniacoelhosantos.com/collective-housing-interior-2-hires.jpg"><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-interior-2.jpg" width="1485" height="1200" alt="Uma recriação digital a ilustrar o interior da habitação colectiva"></a>
-		</div>
+    <div class="project" id="collective-housing">
+      <h2>Habitação Colectiva</h2>
+      <div class="col2 right">
+          <p>O presente trabalho, desenvolveu-se em 3 fases/momentos, cada uma com propósitos específicos.</p>
+        <p><b>Momento 1:</b> <i>A Cidade</i></p>
+        <p>O quarteirão a intervir localiza-se  numa área habitacional próxima da rotunda da Boavista, uma forte centralidade . Analisando a dimensão do loteamento fornecido, o rasgamento de uma nova rua que permitisse o acesso e a divisão dos quarteirões tornou-se fulcral e pertinente. Esta nova via adquire  o carácter de rua de interior de quarteirão, e deste modo, todas as instalações de comercio e escritórios são localizadas nas ruas com maior trafego  ligação a áreas importantes da cidade como a Rua da Graciosa e a Rua da Quinta Amarela. </p>
+        <p><b>Momento 2:</b> <i>O Edifício</i></p>
+        <p>O segundo momento foi a eleição de um bloco de habitação e o seu desenvolvimento. O bloco elegido situa-se numa das ruas mais movimentadas e encontra-se em ligação directa com uma empena, facto que levante varias questões no que respeita a continuidade de fachadas e linguagens. O edifício acaba por resultar da intersecção de dois corpos: um que dá continuidade ao plano do edifício da empena e que define as varandas dos fogos de habitação e um outro de maior importância que alberga todas as habitações, que se distancia e separa das limitações da empena. Deste modo, torna-se possível o aumento do número de pisos do edifício para uma melhor definição do gaveto e uma igualdade de escalas dos edifícios circundantes.</p>
+      </div>
+      <a href="http://media.vaniacoelhosantos.com/collective-housing-at-night-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/collective-housing-at-night.jpg" width="1945" height="1300" alt="Uma recriação digital a ilustrar a habitação colectiva vista do exterior à noite"></a>
+      <a href="http://media.vaniacoelhosantos.com/collective-housing-plant-1-clean.png"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-plant-1.png" width="1945" height="654" alt="Planta da habitação colectiva"></a>
+      <a href="http://media.vaniacoelhosantos.com/collective-housing-plant-2-clean.png"><img class="col2 left bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-plant-2.png" width="975" height="884" alt="Planta da habitação colectiva"></a>
+      <div class="col1 left">
+          <p><b>Momento 3:</b> <i>A Habitação</i></p>
+          <p>A definição da estratégia de distribuição das habitações foi panteada com vista a permitir espaços amplos no rés do chão. Assim cada núcleo de ligação vertical distribui para 4 habitações. Com os sistemas de distribuição definidos e a área de cada habitação delimitada o objectivo foi criar espaços com o máximo de flexibilidade possível.</p>
+      </div>
+      <a href="http://media.vaniacoelhosantos.com/collective-housing-interior-1-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/collective-housing-interior-1.jpg" width="1945" height="1200" alt="Uma recriação digital a ilustrar o interior da habitação colectiva"></a>
+      <a href="http://media.vaniacoelhosantos.com/collective-housing-interior-2-hires.jpg"><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-interior-2.jpg" width="1485" height="1200" alt="Uma recriação digital a ilustrar o interior da habitação colectiva"></a>
+    </div>
 
-		<div class="project" id="student-housing">
-			<h2>Residência para Estudantes</h2>
-			<div class="col2 right">
-			    <p>As dificuldades deste projecto residiam na irregularidade tanto formal com altimétrico do terreno, no diálogo com as tipologias habitacionais do séc. XIX do Porto que a nova proposta deveria responder e no desenho do remate do jardim das virtudes, lançando um amplo debate sobre a possibilidade de tornar ou não o jardim um espaço de acesso condicionado.</p>
-				<p>Tendo em consideração estas condicionantes o projecto teve como objectivo uma relação de continuidade com a envolvente, sem que este componente implica-se a sua perda de identidade. Foi assumido que o jardim seria publico e de acesso a qualquer hora do dia, como acontece com os estantes jardins na cidade. Deste modo, a localização da residente seria nas duas plataformas de cota superior e de contacto com a tipologia habitacional. Partindo da criação de um dialogo com os edifícios pre-existentes o edifício inicia-se num movimento vertical, para logo depois se transformar num grande braço horizontal que se apoderam do terreno. Como acontece nos braços, existe sempre um elemento de articulação, que neste caso seria o espaço de entrada na residência e que separaria as áreas comuns, das áreas de módulos de quartos. É esta articulação a imagem chave do projecto, o ponto de ligação das duas peças principais com direcções distintas e alturas dispares.  Foi da problemática articulação dos volumes que nasce a dinâmica do projecto. Por outro lado, todo o desenho do conjunto, teve sempre em atenção a existência de uma rua que se encontra a uma cota bastante superior a do terreno. Esta situação exigiu um tratamento da cobertura do edifício como um quinto alçado do mesmo.</p>
-			</div>
-			<img class="col2 bmargin right" src="http://media.vaniacoelhosantos.com/student-housing-concept.png" width="975" height="701" alt="A sketch from the process of the Student Housing">
-			<a href="http://media.vaniacoelhosantos.com/student-housing-model-main-hires.jpg"><img class="col4 lmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-main.jpg" width="1945" height="1200" alt="Fotografia da maqueta da residência para estudantes"></a>
-			<a href="http://media.vaniacoelhosantos.com/student-housing-implementation-model-1.jpg"><img class="col2 lmargin" src="http://media.vaniacoelhosantos.com/student-housing-implementation-model-1.jpg" width="975" height="700" alt="Fotografia da a maquete de implemetação da residência de estudantes"></a>
-			<a href="http://media.vaniacoelhosantos.com/student-housing-implementation-model-2.jpg"><img class="col2 lmargin" src="http://media.vaniacoelhosantos.com/student-housing-implementation-model-2.jpg" width="975" height="700" alt="Fotografia da a maquete de implemetação da residência de estudantes"></a>
-			<a href="http://media.vaniacoelhosantos.com/student-housing-model-1-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-1.jpg" width="1485" height="832" alt="Fotografia da maqueta da residência para estudantes"></a>
-			<a href="http://media.vaniacoelhosantos.com/student-housing-model-2-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-2.jpg" width="1485" height="832" alt="Fotografia da maqueta da residência para estudantes"></a>
-			<a href="http://media.vaniacoelhosantos.com/student-housing-model-3-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-3.jpg" width="1485" height="832" alt="Fotografia da maqueta da residência para estudantes"></a>
-		</div>
+    <div class="project" id="student-housing">
+      <h2>Residência para Estudantes</h2>
+      <div class="col2 right">
+          <p>As dificuldades deste projecto residiam na irregularidade tanto formal com altimétrico do terreno, no diálogo com as tipologias habitacionais do séc. XIX do Porto que a nova proposta deveria responder e no desenho do remate do jardim das virtudes, lançando um amplo debate sobre a possibilidade de tornar ou não o jardim um espaço de acesso condicionado.</p>
+        <p>Tendo em consideração estas condicionantes o projecto teve como objectivo uma relação de continuidade com a envolvente, sem que este componente implica-se a sua perda de identidade. Foi assumido que o jardim seria publico e de acesso a qualquer hora do dia, como acontece com os estantes jardins na cidade. Deste modo, a localização da residente seria nas duas plataformas de cota superior e de contacto com a tipologia habitacional. Partindo da criação de um dialogo com os edifícios pre-existentes o edifício inicia-se num movimento vertical, para logo depois se transformar num grande braço horizontal que se apoderam do terreno. Como acontece nos braços, existe sempre um elemento de articulação, que neste caso seria o espaço de entrada na residência e que separaria as áreas comuns, das áreas de módulos de quartos. É esta articulação a imagem chave do projecto, o ponto de ligação das duas peças principais com direcções distintas e alturas dispares.  Foi da problemática articulação dos volumes que nasce a dinâmica do projecto. Por outro lado, todo o desenho do conjunto, teve sempre em atenção a existência de uma rua que se encontra a uma cota bastante superior a do terreno. Esta situação exigiu um tratamento da cobertura do edifício como um quinto alçado do mesmo.</p>
+      </div>
+      <img class="col2 bmargin right" src="http://media.vaniacoelhosantos.com/student-housing-concept.png" width="975" height="701" alt="A sketch from the process of the Student Housing">
+      <a href="http://media.vaniacoelhosantos.com/student-housing-model-main-hires.jpg"><img class="col4 lmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-main.jpg" width="1945" height="1200" alt="Fotografia da maqueta da residência para estudantes"></a>
+      <a href="http://media.vaniacoelhosantos.com/student-housing-implementation-model-1.jpg"><img class="col2 lmargin" src="http://media.vaniacoelhosantos.com/student-housing-implementation-model-1.jpg" width="975" height="700" alt="Fotografia da a maquete de implemetação da residência de estudantes"></a>
+      <a href="http://media.vaniacoelhosantos.com/student-housing-implementation-model-2.jpg"><img class="col2 lmargin" src="http://media.vaniacoelhosantos.com/student-housing-implementation-model-2.jpg" width="975" height="700" alt="Fotografia da a maquete de implemetação da residência de estudantes"></a>
+      <a href="http://media.vaniacoelhosantos.com/student-housing-model-1-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-1.jpg" width="1485" height="832" alt="Fotografia da maqueta da residência para estudantes"></a>
+      <a href="http://media.vaniacoelhosantos.com/student-housing-model-2-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-2.jpg" width="1485" height="832" alt="Fotografia da maqueta da residência para estudantes"></a>
+      <a href="http://media.vaniacoelhosantos.com/student-housing-model-3-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-3.jpg" width="1485" height="832" alt="Fotografia da maqueta da residência para estudantes"></a>
+    </div>
 
-		<div id="profile">
-			<img src="http://media.vaniacoelhosantos.com/profile.jpg" width="300" height="300" alt="Fotografia em retrato de Vânia Coelho Santos">
-			<div id="about">
-				<h3>Perfil</h3>
-				<p>Recém-arquitecta de retorno a Portugal após viver na Argentina. Viajar e conhecer novas pessoas em novas culturas traz-me imensos benefícios profissionais. Para mim a arquitectura é a expressão física de um modo de ser e viver, com um inegável impacto na vida económica, cultural e identidade de uma cidade. Isto levou à minha recente obsessão por ícones urbanos como a <a href="http://www.google.com/search?hl=en&q=casa+da+musica&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=EzdOT4WsHca80QXe8d0f&biw=1279&bih=699&sei=FjdOT-iFGOm90QXb8pWeBQ">Casa da Música</a> na cidade do <a href="http://www.google.com/search?hl=en&q=casa+da+musica&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=EzdOT4WsHca80QXe8d0f&biw=1279&bih=699&sei=FjdOT-iFGOm90QXb8pWeBQ#um=1&hl=en&tbm=isch&q=porto+portugal&revid=2029953986&sa=X&ei=JTdOT6DPBKOn0QWzxaWeBQ&ved=0CD0QgxY&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&fp=b5e3a77be345cbf1&biw=1279&bih=699">Porto</a>, a minha cidade natal.</p>
-			</div>
-			<div id="contacts">
-				<h3>Contactos</h3>
-				<ul>
-					<li><a href="mailto:vania@vaniacoelhosantos.com">vania@vaniacoelhosantos.com</a></li>
-					<li><a href="tel:+447565806842" class="tel">+44(0) 7565 806842</a></li>
-				</ul>
-			</div>
-			<div id="education">
-				<h3>Educação</h3>
-				<ul>
-					<li><span>‘10 / ‘11</span> <a href="http://www.fa.up.pt/">FAUP</a>, Mestrado em Arquitectura</li>
-					<li><span>‘10 / ‘11</span> <a href="http://www.letras.up.pt/">FLUP</a>, Diploma em Inglês e Francês</li>
-					<li><span>‘09 / ‘10</span> <a href="http://www.fadu.uba.ar/">FADU</a>, Mestrado em Arquitectura (ERASMUS)</li>
-					<li><span>‘05 – ‘09</span> <a href="http://www.fa.up.pt/">FAUP</a>, Licenciatura em Arquitectura</li>
-					<li><span>‘04 / ‘05</span> <a href="http://www.esap.pt/">ESAP</a>, Licenciatura em Arquitectura (Parcial)</li>
-					<li><span>‘01 – ‘04</span> <a href="http://www.essr.net/">ESSR</a>, Curso profissional em artes</li>
-				</ul>
-			</div>
-			<div id="awards-and-press">
-				<h3>Prémios e Publicações</h3>
-				<ul>
-					<li><span>‘11</span> 1º Prémio local, Competição <i>PLADUR</i></li>
-					<li><span>‘10</span> 1º Prémio, Competição <i>Mobiliário Urbano</i></li>
-					<li><span>‘10</span> Publicação, <i>Boarding Pass</i> magazine, 1ª edição</li>
-					<li><span>‘10</span> Menção Honrosa, Competição <i>Go Architecture!</i></li>
-					<li><span>‘09</span> Selecção para a exposição anual da FAUP, História de Arquitectura Portuguesa</li>
-					<li><span>‘08</span> Selecção para a exposição anual da FAUP, Construção III</li>
-					<li><span>‘07</span> Selecção para a exposição anual da FAUP, Projecto II</li>
-					<li><span>‘06</span> Selecção para a exposição anual da FAUP, Desenho I</li>
-				</ul>
-			</div>
-			<div>© <?php date_default_timezone_set('Europe/London'); echo date("Y") ?> Vânia Coelho Santos<br />Website por <a href="http://nunocoelhosantos.com">Nuno Coelho Santos</a></div>
-		</div>
+    <div id="profile">
+      <img src="http://media.vaniacoelhosantos.com/profile.jpg" width="300" height="300" alt="Fotografia em retrato de Vânia Coelho Santos">
+      <div id="about">
+        <h3>Perfil</h3>
+        <p>Recém-arquitecta de retorno a Portugal após viver na Argentina. Viajar e conhecer novas pessoas em novas culturas traz-me imensos benefícios profissionais. Para mim a arquitectura é a expressão física de um modo de ser e viver, com um inegável impacto na vida económica, cultural e identidade de uma cidade. Isto levou à minha recente obsessão por ícones urbanos como a <a href="http://www.google.com/search?hl=en&q=casa+da+musica&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=EzdOT4WsHca80QXe8d0f&biw=1279&bih=699&sei=FjdOT-iFGOm90QXb8pWeBQ">Casa da Música</a> na cidade do <a href="http://www.google.com/search?hl=en&q=casa+da+musica&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=EzdOT4WsHca80QXe8d0f&biw=1279&bih=699&sei=FjdOT-iFGOm90QXb8pWeBQ#um=1&hl=en&tbm=isch&q=porto+portugal&revid=2029953986&sa=X&ei=JTdOT6DPBKOn0QWzxaWeBQ&ved=0CD0QgxY&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&fp=b5e3a77be345cbf1&biw=1279&bih=699">Porto</a>, a minha cidade natal.</p>
+      </div>
+      <div id="contacts">
+        <h3>Contactos</h3>
+        <ul>
+          <li><a href="mailto:vania@vaniacoelhosantos.com">vania@vaniacoelhosantos.com</a></li>
+          <li><a href="tel:+447565806842" class="tel">+44(0) 7565 806842</a></li>
+        </ul>
+      </div>
+      <div id="education">
+        <h3>Educação</h3>
+        <ul>
+          <li><span>‘10 / ‘11</span> <a href="http://www.fa.up.pt/">FAUP</a>, Mestrado em Arquitectura</li>
+          <li><span>‘10 / ‘11</span> <a href="http://www.letras.up.pt/">FLUP</a>, Diploma em Inglês e Francês</li>
+          <li><span>‘09 / ‘10</span> <a href="http://www.fadu.uba.ar/">FADU</a>, Mestrado em Arquitectura (ERASMUS)</li>
+          <li><span>‘05 – ‘09</span> <a href="http://www.fa.up.pt/">FAUP</a>, Licenciatura em Arquitectura</li>
+          <li><span>‘04 / ‘05</span> <a href="http://www.esap.pt/">ESAP</a>, Licenciatura em Arquitectura (Parcial)</li>
+          <li><span>‘01 – ‘04</span> <a href="http://www.essr.net/">ESSR</a>, Curso profissional em artes</li>
+        </ul>
+      </div>
+      <div id="awards-and-press">
+        <h3>Prémios e Publicações</h3>
+        <ul>
+          <li><span>‘11</span> 1º Prémio local, Competição <i>PLADUR</i></li>
+          <li><span>‘10</span> 1º Prémio, Competição <i>Mobiliário Urbano</i></li>
+          <li><span>‘10</span> Publicação, <i>Boarding Pass</i> magazine, 1ª edição</li>
+          <li><span>‘10</span> Menção Honrosa, Competição <i>Go Architecture!</i></li>
+          <li><span>‘09</span> Selecção para a exposição anual da FAUP, História de Arquitectura Portuguesa</li>
+          <li><span>‘08</span> Selecção para a exposição anual da FAUP, Construção III</li>
+          <li><span>‘07</span> Selecção para a exposição anual da FAUP, Projecto II</li>
+          <li><span>‘06</span> Selecção para a exposição anual da FAUP, Desenho I</li>
+        </ul>
+      </div>
+      <div>© <?php date_default_timezone_set('Europe/London'); echo date("Y") ?> Vânia Coelho Santos<br />Website por <a href="http://nunocoelhosantos.com">Nuno Coelho Santos</a></div>
+    </div>
 
-	</body>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-35923540-9']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
 </html>
