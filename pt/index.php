@@ -6,40 +6,40 @@
 		<meta name="description" content="Vânia Coelho Santos is an architect, FAUP alumni, based in Porto. This website is an online portfolio showcasing selected pieces of work." />
 		<meta name="keywords" content="vania, coelho, santos, faup, architecture, arquitectura, porto, portfolio" />
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-		
+
 		<title>Vânia Coelho Santos &nbsp;/&nbsp; Portfólio de Arquitectura</title>
-		 
+
 		<link href="/stylesheets/styles.css" rel="stylesheet" media="screen"/>
-		
+
 		<script src="https://use.typekit.com/gpc3ajw.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script src="/scripts/jquery.localscroll.js"></script>
 		<script src="/scripts/jquery.scrollto.js"></script>
 		<script src="/scripts/scripts.js"></script>
 		<script src="http://mint.vaniacoelhosantos.com/?js" type="text/javascript"></script>
-		
+
 		<!-- Large Screens -->
 		<style type="text/css" media="only screen and (min-width: 1800px)">
 			.project img, .project div {margin: 20px 0;}
 			.project div.col1 {width: 10.5%;}
 			.project div.col2 {width: 23%;}
 		</style>
-		
+
 		<!-- Standard Screens -->
 		<style type="text/css" media="only screen and (max-width: 1800px)">
 		</style>
-		
+
 		<!-- Small Screens -->
 		<style type="text/css" media="only screen and (max-width: 1000px)">
 			.tel {pointer-events: auto;}
 			#nav {display: none;}
 			body > * {width: 100%;}
-			.project div.col1, 
+			.project div.col1,
 			.project div.col2 {width: 48%; -moz-column-count: 1; -o-column-count: 1; -webkit-column-count: 1; column-count: 1;}
 			#profile > div + div {clear: left;}
 			#profile img {width: 18.4%;}
 		</style>
-		
+
 		<!-- Mobile Screens -->
 		<style type="text/css" media="only screen and (max-width: 750px)">
 			body {
@@ -71,32 +71,32 @@
 					width: 92% !important;
 					margin-right: 4% !important;
 					margin-left: 4% !important;
-					float: left !important; 
+					float: left !important;
 					clear: left !important;
 					}
 			#profile > div {margin-left: 4% !important; width: 92% !important; min-width: 0px !important;}
 			#profile img {margin-left: 4% !important; width: 48.4%;}
-			
+
 		</style>
 
 		<!--[if lt IE 9]>
 			.pictogram {display:none;}
 		<![endif]-->
-		
+
 	</head>
 
 	<body>
-		
+
 		<div id="header">
 			<h1>Vânia Coelho Santos &nbsp;/&nbsp; Portfólio de Arquitectura</h1>
 			<a href="mailto:vania@vaniacoelhosantos.com">vania@vaniacoelhosantos.com</a>
-			<a href="tel:+351916262047" class="tel">+351 91 6262 047</a>
+			<a href="tel:+447565806842" class="tel">+44(0) 7565 806842</a>
 		</div>
-		
+
 		<span id="previous"></span>
 		<span id="next"></span>
-		
-		
+
+
 		<ul id="nav">
 			<li>Projectos:</li>
 			<ul>
@@ -110,7 +110,7 @@
 			<li><a id="nav-item-about" href="#about">Perfil</a></li>
 			<li><a id="nav-item-download" href="/assets/vania-coelho-santos-portfolio-spring-12.pdf">Descarregar em PDF</a> <span class="pictogram">&#91;</span></li>
 		</ul>
-		
+
 		<div class="project" id="shelter-for-pilgrims">
 			<h2  class="col2">Abrigo para Peregrinos</h2>
 			<div class="col2 right">
@@ -149,7 +149,7 @@
 			<a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-plant-clean.png"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-plant.png" width="1945" height="1874" alt="Planta da Casa da Música de Viena"></a>
 			<a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-in-winter-hires.jpg"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-in-winter.jpg" width="1945" height="1200" alt="Uma recriação digital a ilustrar a Casa da Música de Viena vista do exterior num dia nevoso"></a>
 		</div>
-		
+
 		<div class="project" id="vila-nova-de-gaia-public-library">
 			<h2>Biblioteca de Vila Nova de Gaia</h2>
 			<img class="col1 left clear bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-concept.png" width="512" height="434" alt="A conceptual sketch showing the three spaces of the Vila Nova de Gaia Public Library and their functions">
@@ -170,7 +170,7 @@ O Atrio, elemento funcional de distribuição, é o laço transversal de união 
 			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-cut-clean.png"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-cut.png" width="1945" height="1600" alt="Render dos alçados de cada um dos três espaços da Biblioteca Municipal de Vila Nova de Gaia"></a>
 			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-interior-hires.jpg"><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-interior.jpg" width="1485" height="950" alt="Uma recriação digital a ilustrar o interior da Biblioteca Municipal de Vila Nova de Gaia"></a>
 		</div>
-		
+
 		<div class="project" id="cinematheque">
 			<h2>Cinemateca</h2>
 			<div class="col2 right">
@@ -180,7 +180,7 @@ O Atrio, elemento funcional de distribuição, é o laço transversal de união 
 			<a href="http://media.vaniacoelhosantos.com/cinematheque-plant-clean.png"><img class="col3 left bmargin" src="http://media.vaniacoelhosantos.com/cinematheque-plant.png" width="1485" height="2585" alt="Planta do rés-do-chão e primeiro piso da Cinemateca"></a>
 			<a href="http://media.vaniacoelhosantos.com/cinematheque-cut-hires.jpg"><img class="col3 left" src="http://media.vaniacoelhosantos.com/cinematheque-cut.jpg" width="1485" height="1050" alt="Uma recriação digital a ilustrar a Cinemateca cortada a meio de forma a  desvendar o seu interior"></a>
 		</div>
-		
+
 		<div class="project" id="collective-housing">
 			<h2>Habitação Colectiva</h2>
 			<div class="col2 right">
@@ -200,7 +200,7 @@ O Atrio, elemento funcional de distribuição, é o laço transversal de união 
 			<a href="http://media.vaniacoelhosantos.com/collective-housing-interior-1-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/collective-housing-interior-1.jpg" width="1945" height="1200" alt="Uma recriação digital a ilustrar o interior da habitação colectiva"></a>
 			<a href="http://media.vaniacoelhosantos.com/collective-housing-interior-2-hires.jpg"><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-interior-2.jpg" width="1485" height="1200" alt="Uma recriação digital a ilustrar o interior da habitação colectiva"></a>
 		</div>
-		
+
 		<div class="project" id="student-housing">
 			<h2>Residência para Estudantes</h2>
 			<div class="col2 right">
@@ -215,7 +215,7 @@ O Atrio, elemento funcional de distribuição, é o laço transversal de união 
 			<a href="http://media.vaniacoelhosantos.com/student-housing-model-2-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-2.jpg" width="1485" height="832" alt="Fotografia da maqueta da residência para estudantes"></a>
 			<a href="http://media.vaniacoelhosantos.com/student-housing-model-3-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-3.jpg" width="1485" height="832" alt="Fotografia da maqueta da residência para estudantes"></a>
 		</div>
-		
+
 		<div id="profile">
 			<img src="http://media.vaniacoelhosantos.com/profile.jpg" width="300" height="300" alt="Fotografia em retrato de Vânia Coelho Santos">
 			<div id="about">
@@ -226,7 +226,7 @@ O Atrio, elemento funcional de distribuição, é o laço transversal de união 
 				<h3>Contactos</h3>
 				<ul>
 					<li><a href="mailto:vania@vaniacoelhosantos.com">vania@vaniacoelhosantos.com</a></li>
-					<li><a href="tel:+351916262047" class="tel">+351 91 6262 047</a></li>
+					<li><a href="tel:+447565806842" class="tel">+44(0) 7565 806842</a></li>
 				</ul>
 			</div>
 			<div id="education">
@@ -255,6 +255,6 @@ O Atrio, elemento funcional de distribuição, é o laço transversal de união 
 			</div>
 			<div>© <?php date_default_timezone_set('Europe/London'); echo date("Y") ?> Vânia Coelho Santos<br />Website por <a href="http://nunocoelhosantos.com">Nuno Coelho Santos</a></div>
 		</div>
-		
+
 	</body>
 </html>

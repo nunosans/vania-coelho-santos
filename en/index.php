@@ -6,40 +6,40 @@
 		<meta name="description" content="Vânia Coelho Santos is an architect, FAUP alumni, based in Porto. This website is an online portfolio showcasing selected pieces of work." />
 		<meta name="keywords" content="vania, coelho, santos, faup, architecture, arquitectura, porto, portfolio" />
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-		
+
 		<title>Vânia Coelho Santos &nbsp;/&nbsp; Architecture Portfolio</title>
-		 
+
 		<link href="/stylesheets/styles.css" rel="stylesheet" media="screen"/>
-		
+
 		<script src="https://use.typekit.com/gpc3ajw.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script src="/scripts/jquery.localscroll.js"></script>
 		<script src="/scripts/jquery.scrollto.js"></script>
 		<script src="/scripts/scripts.js"></script>
 		<script src="http://mint.vaniacoelhosantos.com/?js" type="text/javascript"></script>
-		
+
 		<!-- Large Screens -->
 		<style type="text/css" media="only screen and (min-width: 1800px)">
 			.project img, .project div {margin: 20px 0;}
 			.project div.col1 {width: 10.5%;}
 			.project div.col2 {width: 23%;}
 		</style>
-		
+
 		<!-- Standard Screens -->
 		<style type="text/css" media="only screen and (max-width: 1800px)">
 		</style>
-		
+
 		<!-- Small Screens -->
 		<style type="text/css" media="only screen and (max-width: 1000px)">
 			.tel {pointer-events: auto;}
 			#nav {display: none;}
 			body > * {width: 100%;}
-			.project div.col1, 
+			.project div.col1,
 			.project div.col2 {width: 48%; -moz-column-count: 1; -o-column-count: 1; -webkit-column-count: 1; column-count: 1;}
 			#profile > div + div {clear: left;}
 			#profile img {width: 18.4%;}
 		</style>
-		
+
 		<!-- Mobile Screens -->
 		<style type="text/css" media="only screen and (max-width: 750px)">
 			body {
@@ -71,32 +71,32 @@
 					width: 92% !important;
 					margin-right: 4% !important;
 					margin-left: 4% !important;
-					float: left !important; 
+					float: left !important;
 					clear: left !important;
 					}
 			#profile > div {margin-left: 4% !important; width: 92% !important; min-width: 0px !important;}
 			#profile img {margin-left: 4% !important; width: 48.4%;}
-			
+
 		</style>
-		
+
 		<!--[if lt IE 9]>
 			.pictogram {display:none;}
 		<![endif]-->
-		
+
 	</head>
 
 	<body>
-		
+
 		<div id="header">
 			<h1>Vânia Coelho Santos &nbsp;/&nbsp; Architecture Portfolio</h1>
 			<a href="mailto:vania@vaniacoelhosantos.com">vania@vaniacoelhosantos.com</a>
-			<a href="tel:+351916262047" class="tel">+351 91 6262 047</a>
+			<a href="tel:+447565806842" class="tel">+44(0) 7565 806842</a>
 		</div>
-		
+
 		<span id="previous"></span>
 		<span id="next"></span>
-		
-		
+
+
 		<ul id="nav">
 			<li>Projects:</li>
 			<ul>
@@ -110,7 +110,7 @@
 			<li><a id="nav-item-about" href="#about">About</a></li>
 			<li><a id="nav-item-download" href="/assets/vania-coelho-santos-portfolio-spring-12.pdf">Download as a PDF</a> <span class="pictogram">&#91;</span></li>
 		</ul>
-		
+
 		<div class="project" id="shelter-for-pilgrims">
 			<h2  class="col2">Shelter for Pilgrims</h2>
 			<div class="col2 right">
@@ -149,7 +149,7 @@
 			<a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-plant-clean.png"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-plant.png" width="1945" height="1874" alt="The floorplan for the Vienna House of Music"></a>
 			<a href="http://media.vaniacoelhosantos.com/vienna-house-of-music-in-winter-hires.jpg"><img class="col4 bmargin" src="http://media.vaniacoelhosantos.com/vienna-house-of-music-in-winter.jpg" width="1945" height="1200" alt="A computer generated image illustrating the Vienna House of Music seen from outside on snowy weather"></a>
 		</div>
-		
+
 		<div class="project" id="vila-nova-de-gaia-public-library">
 			<h2>Vila Nova de Gaia Public Library</h2>
 			<img class="col1 left clear bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-concept.png" width="512" height="434" alt="A conceptual sketch showing the three spaces of the Vila Nova de Gaia Public Library and their functions">
@@ -161,7 +161,7 @@
 				<p>In the second volume, the spaces seek for communication, interaction and socialisation, being located here the cafeteria, library and multipurpose room.</p>
 				<p><b>Act 3:</b> <i>Coordination</i></p>
 				<p>In the third volume are the spaces associated with the operation and administration of the library.</p>
-				<p>The Atrium, a functional distribution element, makes the connection between the three volumes, acquiring different characteristics in each volume.</p>	
+				<p>The Atrium, a functional distribution element, makes the connection between the three volumes, acquiring different characteristics in each volume.</p>
 			</div>
 			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model-hires.jpg"><img class="col3 left bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-model.jpg" width="1485" height="1345" alt="A photograph of the model for the Vila Nova de Gaia Public Library"></a>
 			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-exterior-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-exterior.jpg" width="1945" height="1200" alt="A computer generated image illustrating the Vila Nova de Gaia Public Library seen from the outside on a sunny morning"></a>
@@ -170,7 +170,7 @@
 			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-cut-clean.png"><img class="col4" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-cut.png" width="1945" height="1600" alt="A computer render of the three sections of the Vila Nova de Gaia Public library in side cut"></a>
 			<a href="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-interior-hires.jpg"><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/vila-nova-de-gaia-public-library-interior.jpg" width="1485" height="950" alt="A computer generated image illustrating the interior of the Vila Nova de Gaia Public Library"></a>
 		</div>
-		
+
 		<div class="project" id="cinematheque">
 			<h2>Cinematheque</h2>
 			<div class="col2 right">
@@ -183,7 +183,7 @@ The site represents the typical topography of Oporto downhill, extending to the 
 			<a href="http://media.vaniacoelhosantos.com/cinematheque-plant-clean.png"><img class="col3 left bmargin" src="http://media.vaniacoelhosantos.com/cinematheque-plant.png" width="1485" height="2585" alt="The floor plan of the ground and first floor of the Cinematheque"></a>
 			<a href="http://media.vaniacoelhosantos.com/cinematheque-cut-hires.jpg"><img class="col3 left" src="http://media.vaniacoelhosantos.com/cinematheque-cut.jpg" width="1485" height="1050" alt="A computer generated image illustrating the Cinematheque with a view to its interior"></a>
 		</div>
-		
+
 		<div class="project" id="collective-housing">
 			<h2>Collective Housing</h2>
 			<div class="col2 right">
@@ -198,16 +198,16 @@ The site represents the typical topography of Oporto downhill, extending to the 
 			<a href="http://media.vaniacoelhosantos.com/collective-housing-plant-2-clean.png"><img class="col2 left bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-plant-2.png" width="975" height="884" alt="A floorplan of the Collective Housing"></a>
 			<div class="col1 left">
 			    <p><b>Moment 3:</b> <i>The Flat</i></p>
-			    <p>The habitation scheme allowed the development of spaces that can be diluted, forming new spaces. The corridor it’s the element that distributes the different areas of the house, and, it can be extended slowly with the opening of the spaces that are connected to him.</p>
+			    <p>The habitation scheme allowed the development of spaces that can be diluted, forming new spaces. The corridor is the element that distributes the different areas of the house and it can be extended slowly with the opening of the spaces that are connected to it.</p>
 			</div>
 			<a href="http://media.vaniacoelhosantos.com/collective-housing-interior-1-hires.jpg"><img class="col4" src="http://media.vaniacoelhosantos.com/collective-housing-interior-1.jpg" width="1945" height="1200" alt="A computer generated image illustrating the interior of the Collective Housing"></a>
 			<a href="http://media.vaniacoelhosantos.com/collective-housing-interior-2-hires.jpg"><img class="col3 right bmargin" src="http://media.vaniacoelhosantos.com/collective-housing-interior-2.jpg" width="1485" height="1200" alt="A computer generated image illustrating the interior of the Collective Housing"></a>
 		</div>
-		
+
 		<div class="project" id="student-housing">
 			<h2>Student Housing</h2>
 			<div class="col2 right">
-			    <p>The difficulties of this project resided in the irregularity of the site. The project should respond and resolve the dialog between the surrounding XIX century architecture and the garden of ‘Virtudes’. Taking these constraints into consideration, the project goal was to design a continuity between the new building and their surrounding, without compromising their identity.</p>
+			  <p>The difficulties of this project resided in the irregularity of the site. The project should respond and resolve the dialog between the surrounding XIX century architecture and the garden of ‘Virtudes’. Taking these constraints into consideration, the project goal was to design a continuity between the new building and their surrounding, without compromising their identity.</p>
 				<p>It was assumed that the garden would be public and without limited access, like the others city gardens of Oporto. Thus, the location of the resident was defined to be in the two highest platforms of the site. Beginning with the creation of a dialogue with the pre-existing buildings the new building starts in a vertical motion, for then become a large horizontal arm that subjugate the site.</p>
 				<p>The foyer - the element that articulates all the others spaces -is the joint element and the key image of all project; the connection point of the two main parts with different directions and distinct heights.</p>
 			</div>
@@ -219,18 +219,18 @@ The site represents the typical topography of Oporto downhill, extending to the 
 			<a href="http://media.vaniacoelhosantos.com/student-housing-model-2-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-2.jpg" width="1485" height="832" alt="A photograph of the model for the Student Housing"></a>
 			<a href="http://media.vaniacoelhosantos.com/student-housing-model-3-hires.jpg"><img class="col3 bmargin" src="http://media.vaniacoelhosantos.com/student-housing-model-3.jpg" width="1485" height="832" alt="A photograph of the model for the Student Housing"></a>
 		</div>
-		
+
 		<div id="profile">
-			<img src="http://media.vaniacoelhosantos.com/profile.jpg" width="300" height="300" alt="A portrait of Vânia Coelho Santos">
+			<img src="http://media.vaniacoelhosantos.com/profile.jpg" width="300" height="300" alt="Portrait of Vânia Coelho Santos">
 			<div id="about">
 				<h3>About</h3>
-				<p>I am a portuguese-spanish-english speaker interested in iconic architecture. To me architecture is an art form that bleeds the concept of a building into a city's economy, identity and culture. Obsessed with <a href="http://www.google.com/search?hl=en&q=casa+da+musica&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=EzdOT4WsHca80QXe8d0f&biw=1279&bih=699&sei=FjdOT-iFGOm90QXb8pWeBQ">Casa da Música</a> in <a href="http://www.google.com/search?hl=en&q=casa+da+musica&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=EzdOT4WsHca80QXe8d0f&biw=1279&bih=699&sei=FjdOT-iFGOm90QXb8pWeBQ#um=1&hl=en&tbm=isch&q=porto+portugal&revid=2029953986&sa=X&ei=JTdOT6DPBKOn0QWzxaWeBQ&ved=0CD0QgxY&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&fp=b5e3a77be345cbf1&biw=1279&bih=699">Porto</a>, my hometown.</p>
+				<p>I am a Portuguese-Spanish-English speaker interested in iconic architecture. To me architecture is an art form that bleeds the concept of a building into a city's economy, identity and culture. Obsessed with <a href="http://www.google.com/search?hl=en&q=casa+da+musica&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=EzdOT4WsHca80QXe8d0f&biw=1279&bih=699&sei=FjdOT-iFGOm90QXb8pWeBQ">Casa da Música</a> in <a href="http://www.google.com/search?hl=en&q=casa+da+musica&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=EzdOT4WsHca80QXe8d0f&biw=1279&bih=699&sei=FjdOT-iFGOm90QXb8pWeBQ#um=1&hl=en&tbm=isch&q=porto+portugal&revid=2029953986&sa=X&ei=JTdOT6DPBKOn0QWzxaWeBQ&ved=0CD0QgxY&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&fp=b5e3a77be345cbf1&biw=1279&bih=699">Porto</a>, my hometown.</p>
 			</div>
 			<div id="contacts">
 				<h3>Contacts</h3>
 				<ul>
 					<li><a href="mailto:vania@vaniacoelhosantos.com">vania@vaniacoelhosantos.com</a></li>
-					<li><a href="tel:+351916262047" class="tel">+351 91 6262 047</a></li>
+					<li><a href="tel:+447565806842" class="tel">+44(0) 7565 806842</a></li>
 				</ul>
 			</div>
 			<div id="education">
@@ -259,6 +259,6 @@ The site represents the typical topography of Oporto downhill, extending to the 
 			</div>
 			<div>© <?php date_default_timezone_set('Europe/London'); echo date("Y") ?> Vânia Coelho Santos<br />Site by <a href="http://nunocoelhosantos.com">Nuno Coelho Santos</a></div>
 		</div>
-		
+
 	</body>
 </html>
