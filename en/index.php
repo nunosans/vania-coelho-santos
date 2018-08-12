@@ -257,7 +257,7 @@ The site represents the typical topography of Oporto downhill, extending to the 
           <li><span>‘06</span> Selected for best student project, FAUP annual exhibition, Technical Drawing I</li>
         </ul>
       </div>
-      <div>© <?php date_default_timezone_set('Europe/London'); echo date("Y") ?> Vânia Coelho Santos<br />Site by <a href="http://nunocoelhosantos.com">Nuno Coelho Santos</a></div>
+      <div>© 2018 Vânia Coelho Santos<br />Site by <a href="http://nunocoelhosantos.com">Nuno Coelho Santos</a></div>
     </div>
 
     <!-- Google Analytics -->

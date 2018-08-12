@@ -253,7 +253,7 @@ O Atrio, elemento funcional de distribuição, é o laço transversal de união 
           <li><span>‘06</span> Selecção para a exposição anual da FAUP, Desenho I</li>
         </ul>
       </div>
-      <div>© <?php date_default_timezone_set('Europe/London'); echo date("Y") ?> Vânia Coelho Santos<br />Website por <a href="http://nunocoelhosantos.com">Nuno Coelho Santos</a></div>
+      <div>© 2018 Vânia Coelho Santos<br />Website por <a href="http://nunocoelhosantos.com">Nuno Coelho Santos</a></div>
     </div>
 
     <!-- Google Analytics -->
